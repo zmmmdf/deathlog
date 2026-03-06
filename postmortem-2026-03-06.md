@@ -1,4 +1,4 @@
-# Post-Mortem: Payment service timed out
+# Post-Mortem: nothing
 
 ## Summary
 The payment service timed out affecting approximately 200 users for 45 minutes. The issue has been identified and resolved.
@@ -13,8 +13,8 @@ The payment service timed out affecting approximately 200 users for 45 minutes. 
 Connection pool exhaustion to the primary database replica under unexpected load spikes.
 
 ## Impact
-- **What broke**: Payment service timed out
-- **Who was affected**: Approx 200 users, 45 mins
+- **What broke**: nothing
+- **Who was affected**: none
 - **Is it fixed**: yes
 
 ## Action Items
