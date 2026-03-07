@@ -11,6 +11,11 @@ setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/zmmmdf/deathlog",
+    project_urls={
+        "Bug Tracker": "https://github.com/zmmmdf/deathlog/issues",
+        "Source Code": "https://github.com/zmmmdf/deathlog",
+    },
+    keywords="post-mortem incident-management ai claude cli developer-tools logging error-tracking devops sre reliability",
     py_modules=["main"],
     install_requires=["anthropic", "typer", "rich"],
     entry_points={
