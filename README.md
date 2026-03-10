@@ -3,22 +3,20 @@
   
   <p><b>AI Post-Mortem Generator</b></p>
   <p>Generate post-mortems from git history in 30 seconds.</p>
-
-  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNmtpbnNlYmp1aXIzYzdkajQxbmtndjZ4OXNrdWt0MTI4OTRkMWtqMCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/L1R1tvI9svkIWwpVYr/giphy.gif" alt="Demo GIF" width="600"/>
 </div>
 
-## 🤔 What does it do?
+## What does it do?
 `deathlog` reads your recent git commit history, asks you 3 quick questions about an incident, and uses Claude 3.5 Sonnet to automatically generate a detailed Markdown post-mortem document.
 
 Stop wasting time writing post-mortems manually when you can automate 90% of the work.
 
-## 📦 Installation
+## Installation
 
 ```bash
 pip install deathlog
 ```
 
-## 🚀 Usage
+## Usage
 
 You'll need an Anthropic API key to use the tool.
 
@@ -45,7 +43,7 @@ If you just want to test the CLI flow without an API key, use the `--mock` flag:
 deathlog --mock
 ```
 
-## 📝 Example Output
+## Example Output
 
 ```markdown
 # Post-Mortem: Payment service timed out
